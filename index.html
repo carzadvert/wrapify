@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lipton Tea Advertisement Concept</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .videos {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+
+        .video {
+            flex: 1;
+            margin: 0 10px;
+        }
+
+        .video iframe {
+            width: 100%;
+            height: 315px;
+        }
+
+        .slideshow-container {
+            position: relative;
+            max-width: 100%;
+            margin: auto;
+            overflow: hidden;
+            background-color: #ddd;
+        }
+
+        .slides {
+            display: none;
+        }
+
+        .slides img {
+            width: 100%;
+        }
+
+        .text {
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            margin: 20px 0;
+            background-color: black;
+            color: white;
+            padding: 20px;
+        }
+
+        .writeup {
+            font-size: 16px;
+            text-align: left;
+            margin: 20px 0;
+            line-height: 1.6;
+            background-color: white;
+            color: black;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-container {
+            margin: 40px 0;
+        }
+
+        iframe {
+            width: 100%;
+            height: 1000px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Get Paid to Drive or Walk Around Concept by Lipton Tea</h1>
+
+        <div class="videos">
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/6cojVooSjTI" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/04O4_VjibUk" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="slideshow-container">
+          <div class="slides">
+              <img src="https://maezautopainting.com/ws/media-library/5ef571b3838f4c3db80c0b5e91ea9234/walkingbillboard102617-1024x683.webp" alt="Slide 1">
+          </div>
+          <div class="slides">
+              <img src="https://maezautopainting.com/ws/media-library/e15f224d0c98470bb9e125333c273d41/bemer-motor-cars_-signs-you-need-auto-body-painting-services_image1.webp" alt="Slide 2">
+          </div>
+          <div class="slides">
+              <img src="https://maezautopainting.com/ws/media-library/6107e281229d4dc19c5b34b3c63e8e6a/nomad3-630x407.webp" alt="Slide 3">
+          </div>
+          <div class="slides">
+            <img src="https://maezautopainting.com/ws/media-library/214f42f4cc8d42508ca3b04199c29efc/partial-wrap.webp" alt="Slide 4">
+        </div>
+        <div class="slides">
+          <img src="https://maezautopainting.com/ws/media-library/241179e3ae7e483fb7bb518062344f61/oagfqbxflyvin2ov9cdepc5nc14fwxzu7yqfbomsjvaxenb6j7jvkotyyapes0ln1cgctww16383.webp" alt="Slide 5">
+      </div>
+
+        <div class="text">
+            GET PAID TO DRIVE OR WALK AROUND CONCEPT BY LIPTON TEA
+        </div>
+
+        <div class="writeup">
+            <p>Tired of monthly car payments? Turn your vehicle into a money-making machine! People across the U.S. are earning up to $400 per week by driving their own car or walking around with our custom backpack kit featuring Lipton Tea ads. It’s simple—just apply below!</p>
+
+            <p><strong>How It Works:</strong><br> Lipton Tea, in partnership with WrapAdvert and Carvertise, is seeking drivers and walkers to advertise our brand. With a small, eye-catching carbon fiber wrap on your car, bike, or truck, or a custom LED backpack kit, you can make money while going about your normal routine. No upfront cost—Lipton Tea handles everything, including installation. Compensation starts at $400 per week, with a 6-week minimum commitment. First payment and supplies will be sent via USPS.</p>
+        </div>
+
+        <!-- Form from Zoho -->
+        <div class="form-container">
+            <iframe src="https://forms.zohopublic.com/clickgroup1/form/EventRegistration/formperma/u5XEQQaEAdQ4OnIhMaMz9lHRdV_e5j81jY_s6ftEnPs" frameborder="0"></iframe>
+        </div>
+
+    </div>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let slides = document.getElementsByClassName("slides");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1;
+            }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 3000); // Change image every 3 seconds
+        }
+    </script>
+
+</body>
+</html>
